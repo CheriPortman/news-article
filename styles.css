@@ -1,10 +1,46 @@
-.masthead {
-  border: 1px solid orange;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.cp-logo {
-  width: 5vw;
-  display: inline-block;
+#masthead {
+  background-color: orange;
+
+}
+.title {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+
+}
+
+#nameplate {
+  display: flex;
+  margin: auto;
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+#subtitle {
+  text-align: center;
+  font-style: oblique; 
+  font-size: 1em; 
+}
+
+.cp-logo-left {
+  height: 15vh;
+  display: flex;
+  margin-left: 15px;
+}
+.cp-logo-right {
+  height: 15vh;
+  display: flex;
+  margin-right: 15px;
 }
 
 .navigation {
@@ -15,15 +51,7 @@
   border: 1px solid purple;
 }
 
-#stitch-stitches {
-  max-width: 200px;
-}
-
-#stitch-toy {
-  max-width: 200px;
-}
-
-#stitch-at-rest {
+.stitch-pictures {
   max-width: 200px;
 }
 
@@ -48,3 +76,27 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
+
+//span class="menu"
+
+// .menu {
+//   display: block
+//   width: 5 rem
+//   height: .5 rem;
+//   backgound-dolor: black
+// }
+
+// .menu::active {
+
+// }
+
+// .menu::before {
+//   content: ''';
+//   display: block;
+//   position: relative  //relative to its own space absolute is to nearest relative parent
+//   top: -1rem
+//   margin-bottom: 1rem
+//   width: 5 rem
+//   height.5rem;
+//   background-color: black
+// }
