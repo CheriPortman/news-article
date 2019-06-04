@@ -5,8 +5,14 @@
   margin: 0;
 }
 
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 #masthead {
-  background-color: orange;
+  background-color:#FF7800;
 
 }
 .title {
@@ -44,15 +50,43 @@
 }
 
 .navigation {
-  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-family: 'Playfair Display', serif;
+  font-size: .75em;
+  font-weight: 900;
+  
+  background-color: #FF9600;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
 }
 
-.fun-facts {
-  border: 1px solid purple;
+.navigation h3 {
+  font-size: 1em;
+}
+
+#laborious-stitch {
+  // display: flex;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding: 15px;
 }
 
 .stitch-pictures {
   max-width: 200px;
+}
+
+#portrait {
+  display: inline-block;
 }
 
 figure {
@@ -75,6 +109,10 @@ figcaption {
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+}
+
+.fun-facts {
+  border: 1px solid purple;
 }
 
 //span class="menu"
