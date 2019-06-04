@@ -4,6 +4,7 @@
 
 .cp-logo {
   width: 5vw;
+  display: inline-block;
 }
 
 .navigation {
@@ -18,6 +19,13 @@
   max-width: 200px;
 }
 
+#stitch-toy {
+  max-width: 200px;
+}
+
+#stitch-at-rest {
+  max-width: 200px;
+}
 
 figure {
   border: thin #c0c0c0 solid;
